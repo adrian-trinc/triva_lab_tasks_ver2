@@ -106,7 +106,6 @@ public class Task implements Serializable {
 
     public boolean isRepeated() {
         return this.interval != 0;
-
     }
 
     public Date nextTimeAfter(Date current) {

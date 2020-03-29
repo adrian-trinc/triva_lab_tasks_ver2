@@ -12,6 +12,7 @@ import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Objects;
 
 @SuppressWarnings("DuplicatedCode")
 public class TaskIO {
@@ -56,6 +57,15 @@ public class TaskIO {
     }
 
     public static void writeBW(TaskList tasks, File file) throws IOException {
+        if (Objects.isNull(tasks)) {
+            throw new IllegalArgumentException("The task list cannot be null!");
+        }
+        if (tasks.size() < 0) {
+            throw new IllegalArgumentException("The task list size must be greater than or equal to 0!");
+        }
+        if (!file.exists()) {
+            throw new IllegalArgumentException("The file must exist!");
+        }
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file.getPath()))) {
             bufferedWriter.write(Integer.toString(tasks.size()));
             bufferedWriter.newLine();
@@ -149,6 +159,9 @@ public class TaskIO {
     }
 
     public static void readBR(TaskList tasks, File file) throws IOException {
+        if (!file.exists()) {
+            throw new IllegalArgumentException("The file must exist!");
+        }
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file.getPath()))) {
             String lineFile = bufferedReader.readLine();
             log.info(lineFile);
