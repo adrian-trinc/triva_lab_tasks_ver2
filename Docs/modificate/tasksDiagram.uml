@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tasks</OriginalElement>
+  <nodes>
+    <node x="1077.0935360882706" y="3851.0">tasks.controller.LaunchController</node>
+    <node x="10.5" y="255.0">tasks.controller.Notificator</node>
+    <node x="623.1935360882705" y="785.0">tasks.model.TaskList</node>
+    <node x="845.1935360882705" y="818.0">tasks.model.TasksOperations</node>
+    <node x="1412.2935360882707" y="763.0">tasks.services.DateService</node>
+    <node x="455.1935360882706" y="752.0">tasks.model.LinkedTaskList.Node</node>
+    <node x="1185.1935360882705" y="795.0">tasks.principal.Main</node>
+    <node x="639.133043432427" y="211.0">tasks.model.ArrayTaskList</node>
+    <node x="598.2997100990938" y="0.0">tasks.model.ArrayTaskList.ArrayTaskListIterator</node>
+    <node x="346.33242497715946" y="3196.0">tasks.controller.TaskInfoController</node>
+    <node x="338.0268694216039" y="2255.0">tasks.model.Task</node>
+    <node x="231.19353608827055" y="817.0">tasks.model.LinkedTaskList.LinkedTaskListIterator</node>
+    <node x="896.5060558542414" y="1590.0">tasks.repository.TaskIO</node>
+    <node x="1253.1266440895356" y="2954.0">tasks.controller.NewEditController</node>
+    <node x="1256.0435360882707" y="1174.0">tasks.services.TasksService</node>
+    <node x="458.34722222222223" y="1173.0">tasks.model.LinkedTaskList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tasks.model.TasksOperations" target="tasks.model.Task">
+      <point x="-40.0" y="79.5" />
+      <point x="965.1935360882705" y="1153.0" />
+      <point x="886.0060558542414" y="1153.0" />
+      <point x="886.0060558542414" y="2185.0" />
+      <point x="511.5562811863098" y="2185.0" />
+      <point x="55.529411764705856" y="-309.5" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList.ArrayTaskListIterator" target="tasks.model.Task">
+      <point x="-73.875" y="80.5" />
+      <point x="622.9247100990938" y="186.0" />
+      <point x="0.0" y="186.0" />
+      <point x="0.0" y="2235.0" />
+      <point x="344.9680458921922" y="2235.0" />
+      <point x="-111.05882352941171" y="-309.5" />
+    </edge>
+    <edge source="tasks.model.TaskList" target="tasks.model.LinkedTaskList">
+      <point x="25.25" y="112.5" />
+      <point x="749.4435360882705" y="1133.0" />
+      <point x="621.7361111111111" y="1133.0" />
+      <point x="76.88888888888891" y="-178.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList.Node" target="tasks.model.LinkedTaskList">
+      <point x="61.66666666666674" y="145.5" />
+      <point x="590.8602027549373" y="1103.0" />
+      <point x="583.2916666666667" y="1103.0" />
+      <point x="38.44444444444446" y="-178.5" />
+    </edge>
+    <edge source="tasks.services.TasksService" target="tasks.model.ArrayTaskList">
+      <point x="12.25" y="-177.5" />
+      <point x="1390.7935360882707" y="662.0" />
+      <point x="786.183043432427" y="662.0" />
+      <point x="60.549999999999955" y="210.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.repository.TaskIO">
+      <point x="-27.46875" y="-332.5" />
+      <point x="1196.1247860882706" y="3771.0" />
+      <point x="967.6185360882705" y="3771.0" />
+      <point x="967.6185360882705" y="2225.0" />
+      <point x="1074.3060558542415" y="2225.0" />
+      <point x="50.80000000000001" y="267.5" />
+    </edge>
+    <edge source="tasks.controller.NewEditController" target="tasks.services.DateService">
+      <point x="69.25" y="-398.5" />
+      <point x="1460.8766440895356" y="2914.0" />
+      <point x="1577.2935360882707" y="2914.0" />
+      <point x="1577.2935360882707" y="1153.0" />
+      <point x="1538.2935360882707" y="1153.0" />
+      <point x="-18.0" y="134.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.controller.TaskInfoController">
+      <point x="-82.40625" y="-332.5" />
+      <point x="1141.1872860882706" y="3801.0" />
+      <point x="378.9990916438261" y="3801.0" />
+      <point x="-65.33333333333337" y="156.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList" target="tasks.model.TaskList">
+      <point x="57.66666666666663" y="-178.5" />
+      <point x="602.5138888888889" y="1123.0" />
+      <point x="698.9435360882705" y="1123.0" />
+      <point x="-25.25" y="112.5" />
+    </edge>
+    <edge source="tasks.controller.Notificator" target="tasks.model.Task">
+      <point x="-76.66666666666663" y="166.5" />
+      <point x="48.83333333333337" y="732.0" />
+      <point x="92.71637676576051" y="732.0" />
+      <point x="92.71637676576051" y="2225.0" />
+      <point x="358.8503988333687" y="2225.0" />
+      <point x="-97.17647058823525" y="-309.5" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList" target="tasks.model.ArrayTaskList.ArrayTaskListIterator">
+      <point x="-57.66666666666674" y="-210.5" />
+      <point x="667.9663767657603" y="186.0" />
+      <point x="672.1747100990938" y="186.0" />
+      <point x="-24.625" y="80.5" />
+    </edge>
+    <edge source="tasks.model.Task" target="tasks.repository.TaskIO">
+      <point x="69.41176470588232" y="-309.5" />
+      <point x="525.4386341274862" y="2195.0" />
+      <point x="921.9060558542415" y="2195.0" />
+      <point x="-101.6" y="267.5" />
+    </edge>
+    <edge source="tasks.controller.NewEditController" target="tasks.repository.TaskIO">
+      <point x="-13.849999999999966" y="-398.5" />
+      <point x="1377.7766440895357" y="2934.0" />
+      <point x="1372.5935360882706" y="2934.0" />
+      <point x="1372.5935360882706" y="2225.0" />
+      <point x="1125.1060558542415" y="2225.0" />
+      <point x="101.60000000000002" y="267.5" />
+    </edge>
+    <edge source="tasks.principal.Main" target="tasks.controller.LaunchController">
+      <point x="-38.39999999999998" y="102.5" />
+      <point x="1242.7935360882707" y="1153.0" />
+      <point x="1229.0935360882706" y="1153.0" />
+      <point x="1229.0935360882706" y="3831.0" />
+      <point x="1232.7497860882706" y="3831.0" />
+      <point x="9.15625" y="-332.5" />
+    </edge>
+    <edge source="tasks.services.TasksService" target="tasks.model.Task">
+      <point x="-35.0" y="177.5" />
+      <point x="1343.5435360882707" y="1570.0" />
+      <point x="1195.9935360882705" y="1570.0" />
+      <point x="1195.9935360882705" y="2235.0" />
+      <point x="567.0856929510156" y="2235.0" />
+      <point x="111.05882352941171" y="-309.5" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList.ArrayTaskListIterator" target="tasks.model.ArrayTaskList">
+      <point x="73.875" y="80.5" />
+      <point x="770.6747100990938" y="186.0" />
+      <point x="783.2997100990938" y="186.0" />
+      <point x="57.66666666666674" y="-210.5" />
+    </edge>
+    <edge source="tasks.controller.TaskInfoController" target="tasks.controller.LaunchController">
+      <point x="0.0" y="156.5" />
+      <point x="444.33242497715946" y="3791.0" />
+      <point x="1159.4997860882706" y="3791.0" />
+      <point x="-64.09375" y="-332.5" />
+    </edge>
+    <edge source="tasks.model.TaskList" target="tasks.model.Task">
+      <point x="-75.75" y="112.5" />
+      <point x="648.4435360882705" y="1113.0" />
+      <point x="447.8472222222222" y="1113.0" />
+      <point x="447.8472222222222" y="2145.0" />
+      <point x="469.9092223627804" y="2145.0" />
+      <point x="13.882352941176464" y="-309.5" />
+    </edge>
+    <edge source="tasks.repository.TaskIO" target="tasks.model.Task">
+      <point x="0.0" y="267.5" />
+      <point x="1023.5060558542414" y="2215.0" />
+      <point x="553.2033400098392" y="2215.0" />
+      <point x="97.17647058823525" y="-309.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList.LinkedTaskListIterator" target="tasks.model.Task">
+      <point x="-76.5" y="80.5" />
+      <point x="256.69353608827055" y="1153.0" />
+      <point x="274.15991285403106" y="1153.0" />
+      <point x="274.15991285403106" y="2175.0" />
+      <point x="428.262163539251" y="2175.0" />
+      <point x="-27.764705882352928" y="-309.5" />
+    </edge>
+    <edge source="tasks.services.TasksService" target="tasks.services.DateService">
+      <point x="61.25" y="-177.5" />
+      <point x="1439.7935360882707" y="1153.0" />
+      <point x="1430.2935360882707" y="1153.0" />
+      <point x="-126.0" y="134.5" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList" target="tasks.model.Task">
+      <point x="-60.549999999999955" y="210.5" />
+      <point x="665.0830434324271" y="712.0" />
+      <point x="209.69353608827055" y="712.0" />
+      <point x="209.69353608827055" y="2195.0" />
+      <point x="400.49745765689806" y="2195.0" />
+      <point x="-55.529411764705856" y="-309.5" />
+    </edge>
+    <edge source="tasks.controller.TaskInfoController" target="tasks.model.Task">
+      <point x="-49.0" y="-156.5" />
+      <point x="395.33242497715946" y="2934.0" />
+      <point x="429.80464719938175" y="2934.0" />
+      <point x="-26.22222222222217" y="309.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.principal.Main">
+      <point x="-9.15625" y="-332.5" />
+      <point x="1214.4372860882706" y="3831.0" />
+      <point x="1218.0935360882706" y="3831.0" />
+      <point x="1218.0935360882706" y="1153.0" />
+      <point x="1204.3935360882706" y="1153.0" />
+      <point x="-76.79999999999995" y="102.5" />
+    </edge>
+    <edge source="tasks.principal.Main" target="tasks.controller.Notificator">
+      <point x="-63.999999999999886" y="-102.5" />
+      <point x="1217.1935360882708" y="692.0" />
+      <point x="202.16666666666663" y="692.0" />
+      <point x="76.66666666666663" y="166.5" />
+    </edge>
+    <edge source="tasks.controller.NewEditController" target="tasks.services.TasksService">
+      <point x="13.850000000000023" y="-398.5" />
+      <point x="1405.4766440895355" y="2934.0" />
+      <point x="1390.5435360882707" y="2934.0" />
+      <point x="1390.5435360882707" y="1570.0" />
+      <point x="1378.5435360882707" y="1570.0" />
+      <point x="0.0" y="177.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList.LinkedTaskListIterator" target="tasks.model.LinkedTaskList">
+      <point x="76.5" y="80.5" />
+      <point x="409.69353608827055" y="1063.0" />
+      <point x="506.40277777777777" y="1063.0" />
+      <point x="-38.44444444444446" y="-178.5" />
+    </edge>
+    <edge source="tasks.controller.NewEditController" target="tasks.model.Task">
+      <point x="-69.24999999999994" y="-398.5" />
+      <point x="1322.3766440895356" y="2904.0" />
+      <point x="534.6935360882707" y="2904.0" />
+      <point x="78.66666666666674" y="309.5" />
+    </edge>
+    <edge source="tasks.repository.TaskIO" target="tasks.services.TasksService">
+      <point x="50.80000000000001" y="-267.5" />
+      <point x="1074.3060558542415" y="1550.0" />
+      <point x="1273.5435360882707" y="1550.0" />
+      <point x="-105.0" y="177.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList" target="tasks.model.LinkedTaskList.Node">
+      <point x="19.222222222222285" y="-178.5" />
+      <point x="564.0694444444446" y="1103.0" />
+      <point x="566.1935360882705" y="1103.0" />
+      <point x="37.0" y="145.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList" target="tasks.model.Task">
+      <point x="-57.66666666666663" y="178.5" />
+      <point x="487.1805555555556" y="1570.0" />
+      <point x="585.8185360882707" y="1570.0" />
+      <point x="585.8185360882707" y="2165.0" />
+      <point x="483.79157530395685" y="2165.0" />
+      <point x="27.764705882352928" y="-309.5" />
+    </edge>
+    <edge source="tasks.model.ArrayTaskList" target="tasks.model.TaskList">
+      <point x="8.650000000000091" y="210.5" />
+      <point x="734.2830434324271" y="732.0" />
+      <point x="791.5268694216038" y="732.0" />
+      <point x="67.33333333333326" y="-112.5" />
+    </edge>
+    <edge source="tasks.principal.Main" target="tasks.model.ArrayTaskList">
+      <point x="64.00000000000011" y="-102.5" />
+      <point x="1345.1935360882708" y="672.0" />
+      <point x="768.883043432427" y="672.0" />
+      <point x="43.25" y="210.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.services.TasksService">
+      <point x="100.71875" y="-332.5" />
+      <point x="1324.3122860882706" y="3811.0" />
+      <point x="1621.2935360882707" y="3811.0" />
+      <point x="1621.2935360882707" y="1560.0" />
+      <point x="1483.5435360882707" y="1560.0" />
+      <point x="105.00000000000006" y="177.5" />
+    </edge>
+    <edge source="tasks.repository.TaskIO" target="tasks.model.LinkedTaskList">
+      <point x="-101.60000000000002" y="-267.5" />
+      <point x="921.9060558542415" y="1560.0" />
+      <point x="544.8472222222222" y="1560.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.services.DateService">
+      <point x="137.34375" y="-332.5" />
+      <point x="1360.9372860882706" y="3831.0" />
+      <point x="1643.2935360882707" y="3831.0" />
+      <point x="1643.2935360882707" y="1153.0" />
+      <point x="1682.2935360882707" y="1153.0" />
+      <point x="126.0" y="134.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.controller.NewEditController">
+      <point x="27.46875" y="-332.5" />
+      <point x="1251.0622860882706" y="3771.0" />
+      <point x="1299.2933107562023" y="3771.0" />
+      <point x="-92.33333333333331" y="398.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList" target="tasks.model.LinkedTaskList.LinkedTaskListIterator">
+      <point x="-76.88888888888891" y="-178.5" />
+      <point x="467.9583333333333" y="1083.0" />
+      <point x="307.69353608827055" y="1083.0" />
+      <point x="-25.5" y="80.5" />
+    </edge>
+    <edge source="tasks.model.LinkedTaskList.Node" target="tasks.model.Task">
+      <point x="-37.0" y="145.5" />
+      <point x="492.1935360882706" y="1103.0" />
+      <point x="436.8472222222222" y="1103.0" />
+      <point x="436.8472222222222" y="2155.0" />
+      <point x="456.0268694216039" y="2155.0" />
+      <point x="0.0" y="-309.5" />
+    </edge>
+    <edge source="tasks.services.DateService" target="tasks.services.TasksService">
+      <point x="-90.0" y="134.5" />
+      <point x="1466.2935360882707" y="1153.0" />
+      <point x="1464.2935360882707" y="1153.0" />
+      <point x="85.75000000000006" y="-177.5" />
+    </edge>
+    <edge source="tasks.repository.TaskIO" target="tasks.model.TaskList">
+      <point x="0.0" y="-267.5" />
+      <point x="1023.5060558542414" y="1133.0" />
+      <point x="799.9435360882705" y="1133.0" />
+      <point x="75.75" y="112.5" />
+    </edge>
+    <edge source="tasks.controller.LaunchController" target="tasks.model.Task">
+      <point x="-137.34375" y="-332.5" />
+      <point x="1086.2497860882706" y="3831.0" />
+      <point x="313.83242497715946" y="3831.0" />
+      <point x="313.83242497715946" y="2904.0" />
+      <point x="351.137980532715" y="2904.0" />
+      <point x="-104.88888888888891" y="309.5" />
+    </edge>
+    <edge source="tasks.services.TasksService" target="tasks.repository.TaskIO">
+      <point x="-70.0" y="177.5" />
+      <point x="1308.5435360882707" y="1560.0" />
+      <point x="1125.1060558542415" y="1560.0" />
+      <point x="101.60000000000002" y="-267.5" />
+    </edge>
+    <edge source="tasks.principal.Main" target="tasks.services.TasksService">
+      <point x="38.39999999999998" y="102.5" />
+      <point x="1319.5935360882706" y="1113.0" />
+      <point x="1341.7935360882707" y="1113.0" />
+      <point x="-36.75" y="-177.5" />
+    </edge>
+    <edge source="tasks.model.TaskList" target="tasks.model.ArrayTaskList">
+      <point x="-67.33333333333326" y="-112.5" />
+      <point x="656.8602027549373" y="732.0" />
+      <point x="699.683043432427" y="732.0" />
+      <point x="-25.950000000000045" y="210.5" />
+    </edge>
+    <edge source="tasks.controller.NewEditController" target="tasks.controller.LaunchController">
+      <point x="0.0" y="398.5" />
+      <point x="1391.6266440895356" y="3781.0" />
+      <point x="1269.3747860882706" y="3781.0" />
+      <point x="45.78125" y="-332.5" />
+    </edge>
+    <edge source="tasks.services.TasksService" target="tasks.model.TasksOperations">
+      <point x="-110.25" y="-177.5" />
+      <point x="1268.2935360882707" y="1143.0" />
+      <point x="1045.1935360882705" y="1143.0" />
+      <point x="40.0" y="79.5" />
+    </edge>
+    <edge source="tasks.services.TasksService" target="tasks.principal.Main">
+      <point x="-61.25" y="-177.5" />
+      <point x="1317.2935360882707" y="1123.0" />
+      <point x="1281.1935360882705" y="1123.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.43465507876154263" x="814.9999999999994" y="900.4999999999998" />
+  <SelectedNodes>
+    <node>tasks.repository.TaskIO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
