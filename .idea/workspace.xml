@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/datatest/tasks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tasks/repository/TaskIOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Tasks.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tasks/repository/TaskIOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/repository/TaskIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/repository/TaskIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/repository/TaskIOTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/model/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/model/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/repository/TaskIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tasks/repository/TaskIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tasks/repository/TaskIOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/repository/TaskIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/repository/TaskIOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

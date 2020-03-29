@@ -170,7 +170,7 @@ class TaskIOTest {
     @Order(5)
     @DisplayName("writeBW success BVA TaskList with 0 tasks and file exists")
     @Tag("BVA1")
-    void writeBWSuccessBVATaskListWith0TasksAndFileExists() {
+    void writeBWSuccessBVA1TaskListWith0TasksAndFileExists() {
         taskList = new LinkedTaskList();
         file = new File(FILE_PATH);
         try {
@@ -194,7 +194,7 @@ class TaskIOTest {
     @Order(6)
     @DisplayName("writeBW success BVA TaskList with 1 task and file exists")
     @Tag("BVA2")
-    void writeBWSuccessBVATaskListWith1TaskAndFileExists() {
+    void writeBWSuccessBVA2TaskListWith1TaskAndFileExists() {
         taskList = new LinkedTaskList();
         Date currentDate = new Date();
         Calendar c = Calendar.getInstance();
@@ -229,7 +229,7 @@ class TaskIOTest {
     @Order(7)
     @DisplayName("writeBW failure BVA TaskList with 5 tasks and file does not exist")
     @Tag("BVA3")
-    void writeBWSuccessBVATaskListWith5TasksAndFileExists() {
+    void writeBWSuccessBVA3TaskListWith5TasksAndFileDoesNotExist() {
         taskList = new LinkedTaskList();
         Date currentDate = new Date();
         Calendar c = Calendar.getInstance();
