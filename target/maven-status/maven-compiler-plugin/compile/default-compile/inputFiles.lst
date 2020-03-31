@@ -1,14 +1,14 @@
-E:\triva_lab_tasks_ver2\src\main\java\tasks\repository\CorruptFileException.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\model\TasksOperations.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\principal\Main.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\model\LinkedTaskList.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\model\ArrayTaskList.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\model\Task.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\controller\Notificator.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\controller\NewEditController.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\repository\TaskIO.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\services\TasksService.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\services\DateService.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\controller\LaunchController.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\model\TaskList.java
-E:\triva_lab_tasks_ver2\src\main\java\tasks\controller\TaskInfoController.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\controller\TaskInfoController.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\controller\LaunchController.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\model\TaskList.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\services\TasksService.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\model\Task.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\controller\NewEditController.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\repository\CorruptFileException.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\controller\Notificator.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\principal\Main.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\model\ArrayTaskList.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\model\TasksOperations.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\repository\TaskIO.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\model\LinkedTaskList.java
+E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks\services\DateService.java

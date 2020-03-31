@@ -231,7 +231,7 @@ class TaskIOTest {
     @Order(7)
     @DisplayName("writeBW failure BVA TaskList with 5 tasks and file does not exist")
     @Tag("BVA3")
-    void writeBWSuccessBVA3TaskListWith5TasksAndFileDoesNotExist() {
+    void writeBWFailureBVA3TaskListWith5TasksAndFileDoesNotExist() {
         taskList = new LinkedTaskList();
         Date currentDate = new Date();
         Calendar c = Calendar.getInstance();
