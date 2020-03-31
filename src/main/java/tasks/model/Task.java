@@ -123,7 +123,7 @@ public class Task implements Serializable {
 
         }
 
-        if (!isRepeated() && current.before(time) && isActive()) {
+            if (!isRepeated() && current.before(time) && isActive()) {
             return time;
         }
         return null;

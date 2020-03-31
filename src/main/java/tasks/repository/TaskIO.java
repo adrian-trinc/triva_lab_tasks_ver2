@@ -69,14 +69,32 @@ public class TaskIO {
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file.getPath()))) {
             bufferedWriter.write(Integer.toString(tasks.size()));
             bufferedWriter.newLine();
-            for (Task t : tasks) {
+            tasks.getAll().sort((x,y) -> (int) (x.getTaskID() - y.getTaskID()));
+            Long prevId = null;
+            for (Task t : tasks.getAll()) {
+                if(t.getTaskID().equals(prevId)) {
+                    throw new IllegalArgumentException();
+                }
+                if (t.getTitle().contains(";")) {
+                    throw new IllegalArgumentException();
+                }
+                if (t.getEndTime().before(t.getStartTime())) {
+                    throw new IllegalArgumentException();
+                }
+
                 bufferedWriter.write(t.getTitle());
+
                 bufferedWriter.write(";");
                 bufferedWriter.write(Boolean.toString(t.isActive()));
                 bufferedWriter.write(";");
+
                 bufferedWriter.write(Integer.toString(t.getRepeatInterval()));
                 bufferedWriter.write(";");
+
                 if (t.isRepeated()) {
+                    if (t.getRepeatInterval() > t.getEndTime().getTime() - t.getStartTime().getTime()) {
+                        throw new IllegalArgumentException();
+                    }
                     bufferedWriter.write(Long.toString(t.getStartTime().getTime()));
                     bufferedWriter.write(";");
                     bufferedWriter.write(Long.toString(t.getEndTime().getTime()));
@@ -84,6 +102,7 @@ public class TaskIO {
                     bufferedWriter.write(Long.toString(t.getTime().getTime()));
                 }
                 bufferedWriter.newLine();
+                prevId = t.getTaskID();
             }
         }
     }

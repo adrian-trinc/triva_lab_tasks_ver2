@@ -9,11 +9,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.time.Instant;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @SuppressWarnings("SpellCheckingInspection")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -199,7 +201,7 @@ class TaskIOTest {
         Date currentDate = new Date();
         Calendar c = Calendar.getInstance();
         c.setTime(currentDate);
-        c.add(Calendar.HOUR, 5);
+        c.add(Calendar.HOUR, 1);
         Date currentDatePlusOne = c.getTime();
         long diff = TimeUnit.SECONDS.convert(Math.abs(currentDatePlusOne.getTime() - currentDate.getTime()), TimeUnit.MILLISECONDS);
         Task task1 = new Task(1L, "Task1", currentDate, currentDatePlusOne, (int) diff);
@@ -259,6 +261,89 @@ class TaskIOTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    @Order(8)
+    @DisplayName("writeBw() with unescaped input throws exception")
+    @Tag("ECP5")
+    void writeBW_UnescapedInput_ExceptionThrown() {
+        file = new File(FILE_PATH);
+        taskList = new LinkedTaskList();
+        Date startDate = Date.from(Instant.now());
+        Date endDate = Date.from(Instant.ofEpochSecond(Instant.now().getEpochSecond() + 1L));
+        long difference = endDate.getTime() - startDate.getTime();
+
+        Task task = new Task(1L, "UnescapedInput;;;;",startDate, endDate, (int) difference);
+        taskList.add(task);
+
+        assertThrows(IllegalArgumentException.class, ()->TaskIO.writeBW(taskList, file));
+    }
+
+    @Test
+    @Order(9)
+    @DisplayName("writeBW() with task having wrong dates throws exception")
+    @Tag("ECP6")
+    void writeBW_EndDateBeforeStartDate_ExceptionThrown() {
+        file = new File(FILE_PATH);
+        taskList = new LinkedTaskList();
+        Date startDate = Date.from(Instant.now());
+        Date endDate = Date.from(Instant.ofEpochSecond(Instant.now().getEpochSecond() + 1L));
+        long difference = endDate.getTime() - startDate.getTime();
+
+        Task task = new Task(1L, "ValidTitle", endDate, startDate, (int) difference);
+        taskList.add(task);
+
+        assertThrows(IllegalArgumentException.class, ()->TaskIO.writeBW(taskList, file));
+    }
+
+    @Test
+    @Order(10)
+    @DisplayName("writeBW() with task having invalid interval throws exception")
+    @Tag("ECP7")
+    void writeBW_InvalidInterval_ExceptionThrown() {
+        file = new File(FILE_PATH);
+        taskList = new LinkedTaskList();
+        Date startDate = Date.from(Instant.now());
+        Date startDatePlusOneHour = Date.from(Instant.ofEpochSecond(Instant.now().getEpochSecond() + 3600L));
+        long difference = startDatePlusOneHour.getTime() - startDate.getTime();
+
+        Task task = new Task(1L, "ValidTitle", startDate, startDatePlusOneHour, (int)(difference + 3600L));
+        taskList.add(task);
+
+        assertThrows(IllegalArgumentException.class, ()->TaskIO.writeBW(taskList, file));
+    }
+
+    @Test
+    @Order(10)
+    @DisplayName("writeBW() with duplicate tasks throws exception")
+    @Tag("ECP8")
+    void writeBW_DuplicateTasks_ExceptionThrown() {
+        file = new File(FILE_PATH);
+        taskList = new LinkedTaskList();
+        Date startDate = Date.from(Instant.now());
+        Date startDatePlusOneHour = Date.from(Instant.ofEpochSecond(Instant.now().getEpochSecond() + 3600L));
+        long difference = startDatePlusOneHour.getTime() - startDate.getTime();
+
+        Task task = new Task(1L, "ValidTitle", startDate, startDatePlusOneHour, (int)difference);
+        Task duplicateTask = new Task(1L, "ValidTitle", startDate, startDatePlusOneHour, (int)difference);
+        taskList.add(task);
+        taskList.add(duplicateTask);
+
+        assertThrows(IllegalArgumentException.class, ()->TaskIO.writeBW(taskList, file));
+    }
+
+    @Test
+    @Order(11)
+    @DisplayName("writeBW() with null list throws exception")
+    @Tag("BVA4")
+    void writeBW_ListNullAndFileExists_ExceptionThrown() {
+        taskList = null;
+        file = new File(FILE_PATH);
+        assertThrows(IllegalArgumentException.class,
+                () -> TaskIO.writeBW(taskList, file));
+    }
+
+
 
     @Test
     @Disabled

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Tasks" />
+        <module name="triva_lab_tasks_ver2" />
       </profile>
     </annotationProcessing>
   </component>
