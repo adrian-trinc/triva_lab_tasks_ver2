@@ -267,16 +267,17 @@ class TaskIOTest {
     @DisplayName("writeBw() with unescaped input throws exception")
     @Tag("ECP5")
     void writeBW_UnescapedInput_ExceptionThrown() {
+        // arrange
         file = new File(FILE_PATH);
         taskList = new LinkedTaskList();
         Date startDate = Date.from(Instant.now());
         Date endDate = Date.from(Instant.ofEpochSecond(Instant.now().getEpochSecond() + 1L));
         long difference = endDate.getTime() - startDate.getTime();
-
         Task task = new Task(1L, "UnescapedInput;;;;",startDate, endDate, (int) difference);
         taskList.add(task);
-
+        // act
         assertThrows(IllegalArgumentException.class, ()->TaskIO.writeBW(taskList, file));
+        // assert
     }
 
     @Test
