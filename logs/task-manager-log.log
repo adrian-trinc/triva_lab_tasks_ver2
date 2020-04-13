@@ -509,3 +509,89 @@
 2020-04-03 13:38:18 INFO  TaskIO:186 - 0
 2020-04-03 13:38:18 INFO  TaskIO:186 - 
 2020-04-03 13:38:18 INFO  TaskIO:186 - 1
+2020-04-12 12:22:05 INFO  Main:30 - saved data reading
+2020-04-12 12:22:05 INFO  TaskIO:186 - 3
+2020-04-12 12:22:05 INFO  Main:33 - application start
+2020-04-12 12:22:06 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 14:37:34 INFO  Main:30 - saved data reading
+2020-04-12 14:37:34 INFO  TaskIO:186 - 3
+2020-04-12 14:37:34 INFO  Main:33 - application start
+2020-04-12 14:37:34 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 14:38:23 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:38:23 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:39:26 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:39:26 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:39:28 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:39:28 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:39:29 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:39:29 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:39:30 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:39:30 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:39:30 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:39:30 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:39:30 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:39:30 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:40:01 INFO  TasksOperations:19 - Tue Mar 17 07:00:00 EET 2020
+2020-04-12 14:40:01 INFO  TasksOperations:20 - Fri Apr 24 10:00:00 EEST 2020
+2020-04-12 14:42:19 INFO  Main:30 - saved data reading
+2020-04-12 14:42:19 INFO  TaskIO:186 - 3
+2020-04-12 14:42:19 INFO  Main:33 - application start
+2020-04-12 14:42:19 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 14:42:44 INFO  TasksOperations:22 - 2020/03/10 07:00:00
+2020-04-12 14:42:44 INFO  TasksOperations:23 - 2020/05/01 10:00:00
+2020-04-12 14:46:09 INFO  NewEditController:100 - new/edit window initializing
+2020-04-12 14:50:12 INFO  Main:30 - saved data reading
+2020-04-12 14:50:12 INFO  TaskIO:186 - 3
+2020-04-12 14:50:12 INFO  Main:33 - application start
+2020-04-12 14:50:12 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 14:50:15 INFO  NewEditController:100 - new/edit window initializing
+2020-04-12 15:14:03 INFO  Main:30 - saved data reading
+2020-04-12 15:14:03 INFO  TaskIO:186 - 3
+2020-04-12 15:14:03 INFO  Main:33 - application start
+2020-04-12 15:14:03 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 15:14:27 INFO  TasksOperations:37 - 2020/03/03 07:00:00
+2020-04-12 15:14:27 INFO  TasksOperations:38 - 2020/05/01 10:00:00
+2020-04-12 15:15:22 INFO  Main:30 - saved data reading
+2020-04-12 15:15:22 INFO  TaskIO:186 - 3
+2020-04-12 15:15:22 INFO  Main:33 - application start
+2020-04-12 15:15:22 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 15:15:53 INFO  TasksOperations:37 - V2
+2020-04-12 15:15:53 INFO  TasksOperations:38 - 2020/03/10 07:00:00
+2020-04-12 15:15:53 INFO  TasksOperations:39 - 2020/04/17 10:00:00
+2020-04-12 15:16:41 INFO  Main:30 - saved data reading
+2020-04-12 15:16:41 INFO  TaskIO:186 - 3
+2020-04-12 15:16:41 INFO  Main:33 - application start
+2020-04-12 15:16:41 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 15:16:59 INFO  TasksOperations:37 - V2
+2020-04-12 15:16:59 INFO  TasksOperations:38 - 2020/03/02 07:00:00
+2020-04-12 15:16:59 INFO  TasksOperations:39 - 2020/04/24 10:00:00
+2020-04-12 15:16:59 INFO  TasksOperations:41 - 3
+2020-04-12 15:17:16 INFO  Main:30 - saved data reading
+2020-04-12 15:17:16 INFO  TaskIO:186 - 3
+2020-04-12 15:17:16 INFO  Main:33 - application start
+2020-04-12 15:17:16 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 15:17:31 INFO  TasksOperations:37 - V2
+2020-04-12 15:17:31 INFO  TasksOperations:38 - 2020/03/10 07:00:00
+2020-04-12 15:17:31 INFO  TasksOperations:39 - 2020/05/02 10:00:00
+2020-04-12 15:17:31 INFO  TasksOperations:41 - 3
+2020-04-12 15:17:31 INFO  TasksOperations:44 - 
+2020-04-12 15:17:31 INFO  TasksOperations:44 - 
+2020-04-12 15:17:31 INFO  TasksOperations:44 - 
+2020-04-12 15:18:11 INFO  Main:30 - saved data reading
+2020-04-12 15:18:11 INFO  TaskIO:186 - 3
+2020-04-12 15:18:11 INFO  Main:33 - application start
+2020-04-12 15:18:11 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 15:18:52 INFO  TasksOperations:37 - V2
+2020-04-12 15:18:52 INFO  TasksOperations:38 - 2020/03/02 07:00:00
+2020-04-12 15:18:55 INFO  TasksOperations:39 - 2020/05/02 10:00:00
+2020-04-12 15:20:43 INFO  Main:30 - saved data reading
+2020-04-12 15:20:43 INFO  TaskIO:186 - 3
+2020-04-12 15:20:43 INFO  Main:33 - application start
+2020-04-12 15:20:44 INFO  LaunchController:75 - Main controller initializing
+2020-04-12 15:20:54 INFO  TasksOperations:37 - V2
+2020-04-12 15:20:54 INFO  TasksOperations:38 - 2020/03/31 10:00:00
+2020-04-12 15:20:54 INFO  TasksOperations:39 - 2020/04/21 03:00:00
+2020-04-12 15:20:54 INFO  TasksOperations:41 - 3
+2020-04-12 15:20:54 INFO  TasksOperations:44 - 
+2020-04-12 15:20:54 INFO  TasksOperations:44 - 
+2020-04-12 15:20:54 INFO  TasksOperations:44 - 

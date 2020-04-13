@@ -101,7 +101,6 @@ public class Task implements Serializable {
         this.start = start;
         this.end = end;
         this.interval = interval;
-
     }
 
     public boolean isRepeated() {
@@ -113,21 +112,43 @@ public class Task implements Serializable {
         if (isRepeated() && isActive()) {
             Date timeBefore = start;
             Date timeAfter = start;
-
             if (current.before(start)) {
                 return start;
             }
-
-            if (current.equals(timeAfter)) return new Date(timeAfter.getTime() + interval * 1000);
-            if (current.after(timeBefore) && current.before(timeAfter)) return timeBefore;//return timeAfter
-
+            if (current.equals(timeAfter))
+                return new Date(timeAfter.getTime() + interval * 1000);
+            if (current.after(timeBefore) && current.before(timeAfter))
+                return timeBefore;//return timeAfter
         }
-
-            if (!isRepeated() && current.before(time) && isActive()) {
+        if (!isRepeated() && current.before(time) && isActive()) {
             return time;
         }
         return null;
     }
+
+    public Date nextTimeAfterOrEqual(Date current) { // 1
+        if (current.after(end))                      // 2
+            return null;                             // 3
+        if (current.equals(end))                     // 4
+            return end;                              // 5
+        if (isRepeated()) {                          // 6
+            if (current.before(start) || current.equals(start)) { // 7
+                return start;                                     // 8
+            }                                                     // 9
+            Date timeAfter = new Date(start.getTime() + interval * 1000);       // 10
+            while (timeAfter.before(end) || timeAfter.equals(end)) {            // 11
+                if (timeAfter.after(current) || timeAfter.equals(current)) {    // 12
+                    return timeAfter;                                           // 13
+                }                                                               // 14
+                timeAfter = new Date(timeAfter.getTime() + interval * 1000);    // 15
+            }                                                                   // 16
+        } else {                                                                // 17
+            if (current.before(time) || current.equals(time)) {                 // 18
+                return time;                                                    // 19
+            }                                                                   // 20
+        }                                                                       // 21
+        return null;                                                            // 22
+    }                                                                           // 23
 
     //duplicate methods for TableView which sets column
     // value by single method and doesn't allow passing parameters

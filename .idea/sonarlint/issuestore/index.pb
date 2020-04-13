@@ -37,3 +37,5 @@ e
 5src/main/java/tasks/controller/NewEditController.java,6\3\63fe2cc9c3e91dd6fea9fe629ea649e64db0d708
 _
 /src/main/java/tasks/controller/Notificator.java,9\0\90f3d1b886ea9e6023b322a07a34e807fd489693
+W
+'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e

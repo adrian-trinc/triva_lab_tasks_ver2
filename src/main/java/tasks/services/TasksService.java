@@ -62,6 +62,11 @@ public class TasksService {
         return tasksOps.incoming(start, end);
     }
 
+    public Iterable<Task> filterTasksV2(Date start, Date end) {
+        TasksOperations tasksOps = new TasksOperations(getObservableList());
+        return tasksOps.incomingV2(start, end);
+    }
+
     public void updateTask(Task task) {
         Optional<Task> optionalTask = tasks.getAll().stream().filter(taskIter -> taskIter.getTaskID().equals(task.getTaskID())).findFirst();
         if (optionalTask.isPresent()) {

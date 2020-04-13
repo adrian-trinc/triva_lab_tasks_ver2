@@ -140,7 +140,7 @@ public class LaunchController {
         Date start = getDateFromFilterField(datePickerFrom.getValue(), fieldTimeFrom.getText());
         Date end = getDateFromFilterField(datePickerTo.getValue(), fieldTimeTo.getText());
 
-        Iterable<Task> filtered = service.filterTasks(start, end);
+        Iterable<Task> filtered = service.filterTasksV2(start, end);
 
         ObservableList<Task> observableTasks = FXCollections.observableList((ArrayList) filtered);
         tasks.setItems(observableTasks);
