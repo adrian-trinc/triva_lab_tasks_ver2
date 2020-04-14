@@ -39,3 +39,6 @@ _
 /src/main/java/tasks/controller/Notificator.java,9\0\90f3d1b886ea9e6023b322a07a34e807fd489693
 W
 'src/test/java/tasks/model/TaskTest.java,3\1\31324894a484d06adcd87a923fb98e2c49cb815e
+:
+
+index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
