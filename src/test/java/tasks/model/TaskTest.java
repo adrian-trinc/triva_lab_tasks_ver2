@@ -268,4 +268,19 @@ class TaskTest {
                 e.printStackTrace();
         }
     }
+
+    @Test
+    @Tag("TC16Lab04")
+    void setTitleNormal() {
+        try {
+            Date date1 = dateFormat.parse("2012/12/21 08:00:00");
+            Date date2 = dateFormat.parse("2012/12/25 12:22:00");
+            Task task1 = new Task(1L, "Task1", date1, date2, (int) TimeUnit.HOURS.toSeconds(1));
+            assertEquals(task1.getTitle(),"Task1");
+            task1.setTitle("Task1V2");
+            assertEquals(task1.getTitle(),"Task1V2");
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+    }
 }

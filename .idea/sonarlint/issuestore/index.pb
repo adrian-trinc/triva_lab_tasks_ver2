@@ -42,3 +42,27 @@ W
 :
 
 index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
+W
+'tasks.model/.classes/ArrayTaskList.html,d\d\dd64f4ee6a1cb2254837bb9d2cebb3d9953a95bc
+X
+(tasks.model/.classes/LinkedTaskList.html,3\7\37d54810ec69801fdceae2494a487abbce3cd816
+R
+"tasks.model/.classes/TaskList.html,4\f\4f93ee72162b2df48ff39f075570d7c457ffa2f7
+F
+tasks.model/index.html,6\6\6669f59b3e411626b1ec1b8565a5f8b305bdc076
+\
+,src/main/java/tasks/model/TaskValidator.java,6\b\6b82600ca13c2858dcf401c510fca9f084547583
+b
+2src/main/java/tasks/model/ValidationException.java,8\8\88fd0a4b731d2fb1caa6d7ee54acb242bf66cfdd
+_
+/src/main/java/tasks/services/TaskServiceV2.java,f\7\f71cec1ac13b8c404661cb6c545b4d9e1dc74497
+o
+?src/main/java/tasks/repository/TaskFileRepositoryException.java,c\a\caa21ce9703e6b145ea062a5b1fd1d380df72793
+f
+6src/main/java/tasks/repository/TaskFileRepository.java,3\c\3c26a71546c3055b9143561dc20907a51bce5f63
+c
+3src/test/java/tasks/services/TaskServiceV2Test.java,3\9\39c1678498b86f817a8731558103005883c9449f
+]
+-src/main/java/tasks/datatest/tasksmockito.txt,f\7\f7f77130b33cb877897d8a030c7ea0961185e4d7
+j
+:src/test/java/tasks/repository/TaskFileRepositoryTest.java,d\d\dd5097b7085f880d76476848a9748c62f5658ce2

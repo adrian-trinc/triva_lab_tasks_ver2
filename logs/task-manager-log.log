@@ -595,3 +595,68 @@
 2020-04-12 15:20:54 INFO  TasksOperations:44 - 
 2020-04-12 15:20:54 INFO  TasksOperations:44 - 
 2020-04-12 15:20:54 INFO  TasksOperations:44 - 
+2020-04-15 17:41:54 INFO  Main:30 - saved data reading
+2020-04-15 17:41:55 INFO  TaskIO:186 - 3
+2020-04-15 17:41:55 INFO  Main:33 - application start
+2020-04-15 17:41:56 INFO  LaunchController:75 - Main controller initializing
+2020-04-17 11:03:41 INFO  Main:30 - saved data reading
+2020-04-17 11:03:41 INFO  TaskIO:186 - 3
+2020-04-17 11:03:41 INFO  Main:33 - application start
+2020-04-17 11:03:42 INFO  LaunchController:75 - Main controller initializing
+2020-05-01 15:45:06 INFO  TaskIO:186 - 
+2020-05-01 15:45:06 INFO  TaskIO:186 - 3
+2020-05-01 15:45:06 INFO  TaskIO:186 - 
+2020-05-01 15:45:06 INFO  TaskIO:186 - 1
+2020-05-01 15:45:06 INFO  TaskIO:186 - 
+2020-05-01 15:45:06 INFO  TaskIO:186 - 
+2020-05-01 15:45:06 INFO  TaskIO:186 - 
+2020-05-01 15:45:06 INFO  TaskIO:186 - 0
+2020-05-01 15:45:06 INFO  TaskIO:186 - 
+2020-05-01 15:45:06 INFO  TaskIO:186 - 1
+2020-05-01 16:00:02 INFO  TaskFileRepository:126 - 
+2020-05-01 16:00:02 INFO  TaskFileRepository:126 - 
+2020-05-02 10:13:31 INFO  TaskFileRepository:126 - 
+2020-05-02 10:13:31 INFO  TaskFileRepository:126 - 
+2020-05-02 10:14:13 INFO  TaskFileRepository:126 - 
+2020-05-02 10:14:13 INFO  TaskFileRepository:126 - 
+2020-05-02 10:15:42 INFO  TaskFileRepository:126 - 
+2020-05-02 10:15:42 INFO  TaskFileRepository:126 - 
+2020-05-02 10:16:21 INFO  TaskFileRepository:126 - 
+2020-05-02 10:19:33 INFO  TaskFileRepository:126 - 
+2020-05-02 10:19:34 INFO  TaskFileRepository:126 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 3
+2020-05-02 10:26:12 INFO  TaskIO:186 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 1
+2020-05-02 10:26:12 INFO  TaskIO:186 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 0
+2020-05-02 10:26:12 INFO  TaskIO:186 - 
+2020-05-02 10:26:12 INFO  TaskIO:186 - 1
+2020-05-02 10:26:12 INFO  TaskFileRepository:126 - 
+2020-05-02 10:26:12 INFO  TaskFileRepository:126 - 
+2020-05-02 10:40:56 INFO  TaskFileRepository:126 - 
+2020-05-02 10:50:31 INFO  TaskFileRepository:126 - 
+2020-05-02 10:51:26 INFO  TaskFileRepository:126 - 
+2020-05-02 10:52:05 INFO  TaskFileRepository:126 - 
+2020-05-02 10:52:12 INFO  TaskFileRepository:126 - 
+2020-05-02 10:52:12 INFO  TaskFileRepository:126 - 
+2020-05-02 10:52:12 INFO  TaskFileRepository:126 - 
+2020-05-02 10:52:12 INFO  TaskFileRepository:126 - 
+2020-05-02 11:10:29 INFO  TaskFileRepository:126 - 
+2020-05-02 11:10:30 INFO  TaskFileRepository:126 - 
+2020-05-02 11:10:30 INFO  TaskFileRepository:126 - 
+2020-05-02 11:10:30 INFO  TaskFileRepository:126 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 3
+2020-05-02 11:10:30 INFO  TaskIO:186 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 1
+2020-05-02 11:10:30 INFO  TaskIO:186 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 0
+2020-05-02 11:10:30 INFO  TaskIO:186 - 
+2020-05-02 11:10:30 INFO  TaskIO:186 - 1
+2020-05-02 11:10:30 INFO  TaskFileRepository:126 - 
+2020-05-02 11:10:30 INFO  TaskFileRepository:126 - 
