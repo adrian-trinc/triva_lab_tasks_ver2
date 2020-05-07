@@ -38,7 +38,7 @@ class TaskIOTest {
     void tearDown() {
     }
 
-    @RepeatedTest(value = 1, name = "{displayName} {currentRepetition}/{totalRepetitions}")
+    @Test
     @Order(1)
     @DisplayName("writeBWSuccessEquivalenceClass1TaskListWith3TasksAndFileExists")
     @Tag("EquivalenceClass1")

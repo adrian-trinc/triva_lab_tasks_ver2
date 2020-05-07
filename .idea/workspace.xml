@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bbe79f98-8ba9-4627-a3ca-7e0c8d7562fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/services/TaskServiceV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/services/TaskServiceV2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/task-manager-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/task-manager-log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tasks/repository/TaskIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tasks/repository/TaskIOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <recent name="E:\SEMESTRUL 6\SAPT  5\Verificarea si validarea sistemelor soft\Laborator\Versiunea2\Tasks\src\main\java\tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.tasks in triva_lab_tasks_ver2">
+  <component name="RunManager" selected="JUnit.TaskIOTest">
     <configuration name="IntegrationTaskFileRepositoryTest.testAddTaskResultValidationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="triva_lab_tasks_ver2" />
       <extension name="coverage">
@@ -89,21 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTaskValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="triva_lab_tasks_ver2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.services.integrationS3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tasks.services.integrationS3" />
-      <option name="MAIN_CLASS_NAME" value="tasks.services.integrationS3.IntegrationTaskValidatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntegrationTaskValidatorTest.testAddTaskResultValidationException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="triva_lab_tasks_ver2" />
       <extension name="coverage">
@@ -116,6 +102,21 @@
       <option name="MAIN_CLASS_NAME" value="tasks.services.integrationS3.IntegrationTaskValidatorTest" />
       <option name="METHOD_NAME" value="testAddTaskResultValidationException" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskIOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triva_lab_tasks_ver2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.repository" />
+      <option name="MAIN_CLASS_NAME" value="tasks.repository.TaskIOTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,20 +176,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.Tasks [exec:java]" />
-      <item itemvalue="JUnit.IntegrationTaskValidatorTest" />
       <item itemvalue="JUnit.IntegrationTaskValidatorTest.testAddTaskResultValidationException" />
       <item itemvalue="JUnit.IntegrationTaskFileRepositoryTest.testAddTaskResultValidationException" />
       <item itemvalue="JUnit.tasks.services in triva_lab_tasks_ver2" />
       <item itemvalue="JUnit.tasks in triva_lab_tasks_ver2" />
+      <item itemvalue="Maven.Tasks [exec:java]" />
+      <item itemvalue="JUnit.TaskIOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskIOTest" />
         <item itemvalue="JUnit.tasks in triva_lab_tasks_ver2" />
         <item itemvalue="JUnit.tasks.services in triva_lab_tasks_ver2" />
         <item itemvalue="JUnit.IntegrationTaskFileRepositoryTest.testAddTaskResultValidationException" />
         <item itemvalue="JUnit.IntegrationTaskValidatorTest.testAddTaskResultValidationException" />
-        <item itemvalue="JUnit.IntegrationTaskValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,11 +226,12 @@
       <workItem from="1587109456803" duration="4989000" />
       <workItem from="1588321211891" duration="12005000" />
       <workItem from="1588402969963" duration="8069000" />
+      <workItem from="1588847744156" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="19" key="#All_in_Tasks" timestamp="1585644623598">
